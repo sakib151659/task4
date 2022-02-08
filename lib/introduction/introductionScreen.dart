@@ -73,9 +73,9 @@ class _introScreenState extends State<introScreen> {
   @override
   Widget build(BuildContext context) {
     return  Scaffold(
-      appBar: AppBar(
-        title: const Text(" home page"),
-      ),
+      // appBar: AppBar(
+      //   title: const Text(" home page"),
+      // ),
       body: IntroductionScreen(
         pages: pages,
         dotsDecorator: const DotsDecorator(
