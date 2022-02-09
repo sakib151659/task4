@@ -84,6 +84,7 @@ class _introScreenState extends State<introScreen> {
           activeColor: Colors.greenAccent,
           activeSize: Size.square(15),
         ),
+
         showDoneButton: true,
         done: const Text("done"),
         showNextButton: true,
@@ -92,9 +93,7 @@ class _introScreenState extends State<introScreen> {
         skip: const Text("Skip"),
         onDone: () => onDone(context),
 
-        onSkip: (){
-
-        },
+        onSkip: () => onDone(context),
       )
 
     );
@@ -106,4 +105,5 @@ class _introScreenState extends State<introScreen> {
         )
     );
   }
+
 }
